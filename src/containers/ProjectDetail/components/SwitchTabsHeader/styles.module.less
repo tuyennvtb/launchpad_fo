@@ -1,0 +1,113 @@
+.container-switch-tabs-header {
+  background-color: rgba(249, 249, 249, 0.08);
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+  display: flex;
+
+  .right-side,
+  .left-side {
+    padding: 22px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .left-side {
+    width: 50%;
+    text-align: right;
+    padding-right: 100px;
+    .underline {
+      border: 3px solid #ffb214;
+      position: absolute;
+      bottom: 0;
+      right: 100px;
+      width: 107px;
+      border-radius: 50px;
+      background-color: #ffb214;
+    }
+  }
+
+  .right-side {
+    width: 50%;
+    padding-left: 100px;
+    .underline {
+      border: 3px solid #ffb214;
+      position: absolute;
+      bottom: 0;
+      left: 100px;
+      width: 107px;
+      border-radius: 50px;
+      background-color: #ffb214;
+    }
+  }
+
+  .active-item {
+    border-bottom: 5px solid #ffb214;
+    padding-bottom: 15px;
+  }
+
+  .text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28.13px;
+    font-family: 'Roboto';
+    color: white;
+  }
+
+  .text .active {
+    color: #ffb214;
+  }
+}
+
+.container-switch-tabs-header-mobile {
+  background-color: rgba(249, 249, 249, 0.08);
+  backdrop-filter: blur(50px);
+  border-radius: 10px;
+  display: flex;
+
+  .right-side,
+  .left-side {
+    padding: 22px;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .left-side {
+    width: 50%;
+    text-align: center;
+    .underline {
+      border: 3px solid #ffb214;
+      position: absolute;
+      bottom: 0;
+      right: 50%;
+      width: 28px;
+      border-radius: 50px;
+      background-color: #ffb214;
+    }
+  }
+
+  .right-side {
+    width: 50%;
+    text-align: center;
+    .underline {
+      border: 3px solid #ffb214;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      width: 28px;
+      border-radius: 50px;
+      background-color: #ffb214;
+    }
+  }
+
+  .text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.41px;
+    font-family: 'Roboto';
+    color: white;
+  }
+
+  .text .active {
+    color: #ffb214;
+  }
+}

@@ -1,0 +1,227 @@
+@import 'src/styles/common.less';
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-column-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sales-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0 50px 141px 50px;
+}
+
+.sale-item {
+  display: flex;
+  background: rgba(249, 249, 249, 0.08);
+  backdrop-filter: blur(50px);
+  border-radius: 12px;
+  min-height: 137px;
+  margin-bottom: 20px;
+  padding-left: 11px;
+  justify-content: space-between;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 77px;
+}
+
+.btn-community {
+  .font(16px, 400, black);
+  line-height: 30px;
+  width: 146px;
+  height: 33px;
+  background: #ffb214;
+  border-radius: 20px;
+  border: 0;
+  margin-bottom: 27px;
+}
+
+.thumb {
+  margin-right: 39px;
+  width: 88px;
+  height: 88px;
+}
+
+.title {
+  .font(42px, 700, white);
+  text-align: center;
+}
+
+.mini-text {
+  .font(20px, 400, #C6C6C6);
+  line-height: 30px;
+  margin-bottom: 21px;
+}
+
+.cell-price {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5px;
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.info-hightlight {
+  .font(22px, 700, white);
+  line-height: 30px;
+}
+
+.title-hightlight {
+  .font(22px, 700, white);
+  line-height: 30px;
+}
+
+.price {
+  .font(22px, 400, #B6B4B4);
+  line-height: 30px;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+}
+
+.total-raise-info {
+  width: 10%;
+}
+
+.supported-info {
+  width: 20%;
+}
+
+@media screen and (max-width: 1024px) {
+  .sale-item {
+    flex-direction: column;
+    padding-top: 17px;
+    padding-left: 0;
+  }
+
+  .flex-column-center {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 14px;
+    margin-bottom: 10px;
+  }
+
+  .total-raise-info {
+    width: 100%;
+  }
+
+  .supported-info {
+    width: 100%;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .group {
+    justify-content: center;
+    margin-bottom: 22px;
+  }
+
+  .last-row {
+    margin-bottom: 23px;
+  }
+
+  .info-hightlight {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .title-hightlight {
+    font-size: 18px;
+  }
+
+  .thumb {
+    margin-right: 0;
+  }
+
+  .btn-community {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .antd-slider {
+    margin: 0;
+  }
+
+  .sales-container {
+    padding: 0 13px;
+  }
+
+  .community-info {
+    width: auto;
+  }
+
+  .mini-text {
+    font-size: 12px;
+    margin-bottom: 0;
+  }
+
+  .cell-price {
+    justify-content: center;
+    padding-right: 0;
+    .info-hightlight {
+      display: none;
+    }
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .group {
+    justify-content: center;
+    margin-bottom: 22px;
+  }
+
+  .last-row {
+    margin-bottom: 23px;
+  }
+
+  .info-hightlight {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .title-hightlight {
+    font-size: 18px;
+  }
+
+  .thumb {
+    margin-right: 0;
+  }
+
+  .btn-community {
+    margin-bottom: 10px;
+  }
+}

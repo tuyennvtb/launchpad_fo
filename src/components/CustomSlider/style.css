@@ -1,0 +1,24 @@
+.custom-slider .ant-slider-track,
+.custom-slider .ant-slider-disabled .ant-slider-track {
+  /* background: #ffb416 !important; */
+  height: 13px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.custom-slider .ant-slider-rail {
+  height: 13px;
+  border-radius: 50px;
+}
+
+.custom-slider .ant-slider {
+  height: 18px;
+  margin: 0;
+}
+.custom-slider .ant-slider-step{
+  height: 0px;
+}
+
+.custom-slider .ant-slider-handle {
+  transform: translateY(-45%) !important;
+  margin: 0px;
+}

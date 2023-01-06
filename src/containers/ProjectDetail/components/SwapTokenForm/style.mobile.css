@@ -1,0 +1,53 @@
+.swap-topken-custom-tabs-mobile .ant-tabs-nav-list{
+    width: 100%;
+    height: 62px;
+    background: rgba(249, 249, 249, 0.08);
+    border-radius: 15px 15px 0px 0px;
+}
+.swap-topken-custom-tabs-mobile .ant-tabs-tab{
+    width: 50%;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 16px;
+}
+.swap-topken-custom-tabs-mobile .ant-tabs-card >
+.ant-tabs-nav .ant-tabs-tab-active,
+.swap-topken-custom-tabs-mobile  .ant-tabs-card > 
+div > 
+.ant-tabs-nav .ant-tabs-tab-active{
+    background-color: transparent;
+    border: none;
+}
+.swap-topken-custom-tabs-mobile .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color: #FFB214;
+}
+.swap-topken-custom-tabs-mobile .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab,
+.swap-topken-custom-tabs-mobile .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab{
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #ffffff;
+}
+
+.swap-topken-custom-tabs-mobile .ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab-active, 
+.swap-topken-custom-tabs-mobile .ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab-active{
+    border-bottom: 4px solid #FFB214;
+}
+.swap-topken-custom-tabs-mobile .ant-tabs-tab:hover{
+    color: #ffffff;
+}
+
+.swap-topken-custom-tabs-mobile .ant-tabs-top > .ant-tabs-nav,
+.swap-topken-custom-tabs-mobile.ant-tabs-bottom > .ant-tabs-nav,
+.swap-topken-custom-tabs-mobile.ant-tabs-top > div > .ant-tabs-nav,
+.swap-topken-custom-tabs-mobile.ant-tabs-bottom > div > .ant-tabs-nav{
+    margin: 0;
+}
+
+.swap-topken-custom-tabs-mobile .ant-tabs-content-holder{
+    padding: 20px;
+}
+.swap-topken-custom-tabs-mobile .ant-tabs-tab.ant-tabs-tab-disabled {
+    color: #d4d4d4;
+}

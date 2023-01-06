@@ -1,0 +1,219 @@
+.main {
+  background-image: url('../../assets/images/project_detail_bg.svg');
+  width: 100%;
+  grid-area: main;
+  padding-top: 105px;
+
+  .content {
+    width: auto;
+    margin: auto;
+    padding: 40px 0 80px 0;
+    max-width: calc(100vw - 80px);
+    .headerContainer {
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px 0;
+    }
+  }
+  .projectDetailInfo {
+    padding: 0px;
+    background: rgba(249, 249, 249, 0.08);
+    font-family: 'Roboto';
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    .header {
+      background: rgba(249, 249, 249, 0.08);
+      backdrop-filter: blur(50px);
+      border-radius: 10px;
+      color: #ffb214;
+      font-size: 24px;
+      line-height: 28px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      margin: 0 -20px;
+      padding: 20px;
+      text-align: center;
+    }
+    .content {
+      padding: 20px;
+      padding-top: 30px;
+      .userCols {
+        height: 100%;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        .avt {
+          height: 49px;
+          width: 49px;
+          border-radius: 50%;
+          border: none;
+          background-color: #ffb214;
+          margin-right: 20px;
+        }
+        .name {
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 19px;
+          color: #ffffff;
+        }
+      }
+      .cols{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .defaultText{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 30px;
+          color: #FFFFFF;
+        }
+        .progressValue{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 19px;
+          color: #FFFFFF;
+        }
+        .slider{
+          width: 223px;
+          margin-left: 15px;
+        }
+        .statusText{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 19px;
+          color: #ffb214;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
+
+
+.mainMobile {
+  background-image: url('../../assets/images/project_detail_bg.svg');
+  width: 100%;
+  grid-area: main;
+  padding-top: 105px;
+
+  .content {
+    width: auto;
+    margin: auto;
+    padding: 40px 0 80px 0;
+    max-width: calc(100vw - 80px);
+    .headerContainer {
+      display: flex;
+      justify-content: flex-end;
+      padding: 20px 0;
+    }
+  }
+  .projectDetailInfo {
+    padding: 0px;
+    background: transparent;
+    font-family: 'Roboto';
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+   
+    .content {
+      padding: 0px;
+      padding-top: 30px;
+      margin: 0 -20px;
+      display: flex;
+      flex-flow: wrap;
+      justify-content: flex-start;  
+      .renderPoolsCard{
+        background: rgba(249, 249, 249, 0.08);
+        backdrop-filter: blur(50px);
+        border-radius: 12px;
+        padding: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+        .user{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .avt{
+            height: 79px;
+            width: 79px;
+            border-radius: 50%;
+            background-color: turquoise;
+          }
+          .infomation{
+            margin-left: 10px;
+            .name{
+              font-family: 'Roboto';
+              font-style: normal;
+              font-weight: bold;
+              font-size: 18px;
+              line-height: 21px;
+              color: #FFFFFF;
+              margin-bottom: 10px;
+            }
+            .status{
+              background: #FFB214;
+              border-radius: 20px;
+              font-family: 'Roboto';
+              font-style: normal;
+              font-weight: normal;
+              font-size: 12px;
+              line-height: 20px;
+              color: #000000;
+              // padding: 5px;
+              text-align: center;
+            }
+          }
+        }
+        .textItem{
+          display: flex;
+          .title{
+            width: 50%;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 30px;
+            color: #C6C6C6;
+          }
+          .value{
+            width: 50%;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 14px;
+            line-height: 16px;
+            color: #FFFFFF;
+            text-align: right;
+          }
+        }
+        .slider{
+          background: rgba(249, 249, 249, 0.08);
+          backdrop-filter: blur(50px);
+          border-radius: 60px;
+          padding: 15px;
+          margin: 0 -15px;
+        }
+        .lastText{
+          font-family: 'Roboto';
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 30px;
+          color: #B6B4B4;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

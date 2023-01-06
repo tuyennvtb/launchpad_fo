@@ -1,0 +1,105 @@
+.custom-search-input 
+> div > span {
+    height: 62px;
+    width: 431px;
+    border: none;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    display: flex;
+}
+
+.custom-search-input
+.ant-input-group >
+.ant-input:first-child {
+    background: transparent;
+    border: none;
+    height: 62px;
+    font-size: 20px;
+    line-height: 23.44px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #C7c7c7;
+}
+.custom-search-input
+.ant-input-group >
+.ant-input:focus {
+    border: none;
+    outline: none;
+}
+
+
+.custom-search-input 
+.ant-input-group-addon{
+    background: transparent;
+}
+
+.custom-search-input 
+.ant-input-group-addon button{
+    background-color: transparent;
+    border: none;
+    color: #FFB214;
+    margin-right: 14px;
+}
+
+.custom-search-input 
+.ant-input-group-addon button svg{
+    font-size: 26px;
+    color: #FFB214;
+}
+
+.custom-search-input-mobile{
+    width: 100%;
+}
+.custom-search-input-mobile .ant-space-item{
+    width: 100%;
+}
+.custom-search-input-mobile 
+> div > span
+ {
+    height: 62px;
+    width: 100%;
+    border: none;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    display: flex;
+}
+
+.custom-search-input-mobile
+.ant-input-group >
+.ant-input:first-child {
+    background: transparent;
+    border: none;
+    height: 62px;
+    font-size: 20px;
+    line-height: 23.44px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: #C7c7c7;
+    width: 100%;
+}
+.custom-search-input-mobile
+.ant-input-group >
+.ant-input:focus {
+    border: none;
+    outline: none;
+}
+
+
+.custom-search-input-mobile 
+.ant-input-group-addon{
+    background: transparent;
+}
+
+.custom-search-input-mobile 
+.ant-input-group-addon button{
+    background-color: transparent;
+    border: none;
+    color: #FFB214;
+    margin-right: 14px;
+}
+
+.custom-search-input-mobile 
+.ant-input-group-addon button svg{
+    font-size: 26px;
+    color: #FFB214;
+}

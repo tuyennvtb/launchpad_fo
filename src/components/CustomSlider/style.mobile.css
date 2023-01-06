@@ -1,0 +1,15 @@
+.custom-slider-mobile .ant-slider-track {
+    background: linear-gradient(90deg, #FFB416 0%, #79BBF5 100%) !important;
+    height: 13px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.custom-slider-mobile .ant-slider-rail{
+    height: 13px;
+    border-radius: 50px;
+}
+
+.custom-slider-mobile .ant-slider {
+    height: 18px;
+    margin: 0;
+}

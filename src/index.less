@@ -1,0 +1,79 @@
+@import '~antd/dist/antd.css';
+@import './styles//index.module.less';
+
+@heading-color: '#FFFFFF';
+
+.ant-steps-icon {
+  img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.ant-steps-item-title,
+.ant-steps-item-description {
+  color: #ffffff !important;
+}
+
+.ant-progress-inner {
+  background: #4d4d4d;
+  .ant-progress-bg {
+    background: #ffb416;
+  }
+}
+.ant-modal-confirm-error .ant-modal-confirm-body .ant-modal-confirm-content,
+.ant-modal-confirm-error .ant-modal-confirm-body .custom-modal-body{
+  white-space: pre;
+  color: #FF5959;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin: 25px;
+}
+.ant-modal-confirm-error .ant-modal-confirm-body> span[role="img"],
+.ant-modal-confirm-error .custom-modal-body span[role="img"]{
+  color: #FF5959;
+  font-size: 53px;
+  display: block;
+  margin-bottom: 20px;
+}
+.ant-modal-confirm-success .ant-modal-confirm-body .ant-modal-confirm-content,
+.ant-modal-confirm-success .ant-modal-confirm-body .custom-modal-body{
+  white-space: pre;
+  color: #FFB416;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin: 25px;
+}
+.ant-modal-confirm-success .ant-modal-confirm-body > span[role="img"],
+.ant-modal-confirm-success .custom-modal-body span[role="img"]{
+  color: #FFB416;
+  font-size: 53px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.ant-modal-confirm .ant-modal-confirm-btns{
+  display: none;
+}
+.ant-modal-confirm-success,
+.ant-modal-confirm-error{
+  .ant-modal-confirm-body-wrapper{
+    width: 100%;
+    .ant-modal-confirm-content{
+      margin: 25px 0;
+      .custom-modal-body{
+        margin: 25px 0;
+        white-space: normal;
+        line-height: 28px;
+      }
+    }
+  }
+}

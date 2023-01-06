@@ -1,0 +1,101 @@
+.project-list-winner-container-mobile .ant-table{
+    background: transparent;
+}
+
+.project-list-winner-container-mobile .ant-table-thead > tr > th{
+    background-color: transparent;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Roboto';
+    border: none;
+    
+}
+
+.project-list-winner-container-mobile .ant-table-tbody > tr > td{
+    border:none;
+    padding: 5px 0px;
+}
+.project-list-winner-container-mobile .ant-table-tbody > tr > td > .custom-table {
+    border: 2px solid #FFB214;
+    border-right: none;
+    border-left: none;
+    /* height: 70px; */
+    display: block;
+    padding: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    overflow-wrap: anywhere;
+    text-align: center;
+
+}
+.project-list-winner-container-mobile .ant-table-tbody > tr > td:first-child > .custom-table{
+    border: 2px solid #FFB214;
+    border-right: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.project-list-winner-container-mobile .ant-table-tbody > tr > td:last-child > .custom-table{
+    border: 2px solid #FFB214;
+    border-left: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.project-list-winner-container-mobile .ant-table-tbody > tr > td:only-child > .custom-table{
+    border: 2px solid #FFB214;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.project-list-winner-container-mobile .ant-table-tbody > tr.ant-table-row:hover > td, 
+.project-list-winner-container-mobile .ant-table-tbody > tr > td.ant-table-cell-row-hover{
+    background: transparent;
+}
+
+.project-list-winner-container-mobile  .ant-pagination-item.ant-pagination-item-active{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background: #FFB214;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+}
+.project-list-winner-container-mobile .ant-pagination-item{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background: transparent;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color: white;
+}
+.project-list-winner-container-mobile .ant-pagination-prev > button,
+.project-list-winner-container-mobile .ant-pagination-next > button{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background: transparent;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    color: white;
+}

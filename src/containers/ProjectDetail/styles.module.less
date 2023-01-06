@@ -1,0 +1,680 @@
+.main {
+  background-image: url('../../assets/images/project_detail_bg.svg');
+  width: 100%;
+  grid-area: main;
+  padding-top: 105px;
+
+  .content {
+    width: auto;
+    margin: auto;
+    padding: 40px 0 80px 0;
+    max-width: calc(100vw - 80px);
+
+    .infoWrapper {
+      color: #ffffff;
+      display: grid;
+      grid-column-gap: 12px;
+      grid-template-columns: 1fr 1fr;
+
+      .logo {
+        width: 40px;
+        height: 40px;
+        margin-right: 12px;
+        border-radius: 50%;
+      }
+
+      .infoContent {
+        color: #ffffff;
+        margin-bottom: 5px;
+        padding-bottom: 15px;
+        .title {
+          display: flex;
+          align-items: center;
+          margin-bottom: 15px;
+          .name {
+            font-size: 28px;
+            font-family: 'Roboto';
+            font-weight: bold;
+            line-height: 49px;
+            color: #ffffff;
+            margin: 0;
+          }
+        }
+        .leftStatus {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column-reverse;
+          .statusContent {
+            height: 62px;
+            padding: 16px;
+            width: 100%;
+            background: rgba(249, 249, 249, 0.08);
+            backdrop-filter: blur(50px);
+            border-radius: 10px;
+            text-align: center;
+            font-size: 24px;
+            line-height: 28.13px;
+            font-weight: 500;
+            font-family: 'Roboto';
+            color: #c6c6c6;
+          }
+          .highlight {
+            color: #ffb416;
+          }
+        }
+      }
+
+      .additionalInfo {
+        display: flex;
+        flex-wrap: wrap;
+        word-break: break-word;
+        align-items: center;
+        margin-left: -7px;
+        align-content: center;
+        margin: 0;
+        padding: 0;
+        .supportedItem {
+          display: flex;
+          padding: 0 12px;
+          font-size: 14px;
+          align-items: center;
+          font-family: 'Roboto';
+          font-weight: 500;
+          line-height: 21px;
+          color: #ffffff;
+          border-right: 1px solid #44454b;
+          img {
+            height: 20px;
+            margin-right: 4px;
+          }
+        }
+      }
+    }
+
+    .projectSection,
+    .swapTokenSection {
+      color: #ffffff;
+      padding: 28px 28px;
+      background: rgba(249, 249, 249, 0.08);
+      font-family: 'Roboto';
+      border-radius: 12px;
+      margin-bottom: 20px;
+      .header {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: #ffffff;
+        margin-bottom: 45px;
+      }
+      .headerContainer {
+        display: flex;
+        justify-content: space-between;
+        .subHeader {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 30.47px;
+          color: #c6c6c6;
+          margin-bottom: 45px;
+        }
+        .time {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 32.81px;
+          color: #ffffff;
+          background: rgba(255, 255, 255, 0.1);
+          border-radius: 28px;
+          display: inline;
+          padding: 11px 34px;
+          margin-left: 16px;
+        }
+      }
+      .infoContainer {
+        width: 50%;
+      }
+      .sliderContainer {
+        padding: 21px 32px;
+        background: rgba(249, 249, 249, 0.08);
+        backdrop-filter: blur(50px);
+        border-radius: 14px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .swapTokenSection {
+      display: flex;
+      .leftSide {
+        position: relative;
+        width: 60%;
+      }
+      .rightSide {
+        width: 40%;
+        padding-left: 20px;
+        .header {
+          text-align: center;
+        }
+      }
+    }
+    .projectSection {
+      position: relative;
+
+      .tokenClaimInfo {
+        margin-bottom: 30px;
+        .itemInfo {
+          .title {
+            width: 30%;
+          }
+          .value {
+            width: 70%;
+          }
+        }
+      }
+      .availableToClaimWrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      .availableToClaim {
+        width: 613px;
+        padding: 20px 30px;
+        display: flex;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid #ffb214;
+        box-sizing: border-box;
+        border-radius: 15px;
+        justify-content: space-between;
+        align-items: center;
+        .titleToClaim {
+          font-size: 14px;
+          color: #c6c6c6;
+          font-family: 'Roboto';
+          line-height: 25.78px;
+          font-weight: 400;
+        }
+        .valueToClaim {
+          font-size: 16px;
+          color: #ffb416;
+          font-family: 'Roboto';
+          line-height: 32.81px;
+          font-weight: 500;
+        }
+      }
+    }
+    .itemInfo,
+    .itemInfoReverse {
+      width: 100%;
+      display: flex;
+      margin-bottom: 30px;
+      .title,
+      .titleRight {
+        width: 50%;
+        font-size: 14px;
+        color: #c6c6c6;
+        font-family: 'Roboto';
+        line-height: 26px;
+      }
+      .value,
+      .valueRight {
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 500;
+        font-family: 'Roboto';
+      }
+      .value {
+        width: 50%;
+      }
+      .valueRight {
+        width: 50%;
+        text-align: right;
+      }
+      .titleRight {
+        width: 50%;
+        text-align: right;
+      }
+      .highlight {
+        color: #ffb416;
+      }
+    }
+    .itemInfoReverse {
+      flex-direction: row-reverse;
+    }
+  }
+  .projectDetailInfo {
+    padding: 0px;
+    background: rgba(249, 249, 249, 0.08);
+    font-family: 'Roboto';
+    border-radius: 12px;
+    margin-bottom: 20px;
+    .content {
+      padding: 20px;
+      padding-top: 30px;
+      .itemInfo {
+        .title {
+          width: 30%;
+        }
+        .value {
+          width: 70%;
+          font-size: 16px;
+          line-height: 28px;
+          font-weight: 500;
+          font-family: 'Roboto';
+          color: #ffffff;
+        }
+      }
+      .infomation {
+        .itemInfo {
+          padding-top: 50px;
+          display: block;
+          .title {
+            width: 100%;
+            margin-bottom: 20px;
+          }
+          .value {
+            width: 100%;
+            line-height: 42px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.mainMobile {
+  background-image: url('../../assets/images/project_detail_bg.svg');
+  width: 100%;
+  grid-area: main;
+  padding-top: 105px;
+  .topSectionMobile {
+    .infoCoin {
+      width: 100%;
+      color: #ffffff;
+      margin-bottom: 5px;
+      padding-bottom: 15px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      .side {
+        width: auto;
+      }
+      .logo {
+        width: 80px;
+        height: 80px;
+        margin-right: 12px;
+        border-radius: 50%;
+      }
+      .title {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        .name {
+          font-size: 28px;
+          font-family: 'Roboto';
+          font-weight: bold;
+          line-height: 49px;
+          color: #ffffff;
+          margin: 0;
+        }
+      }
+    }
+
+    .infoContent {
+      width: 100%;
+      color: #ffffff;
+      margin-bottom: 5px;
+      padding-bottom: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .leftStatus {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        .statusContent {
+          height: 46px;
+          padding: 13px;
+          width: 100%;
+          background: rgba(249, 249, 249, 0.08);
+          backdrop-filter: blur(50px);
+          border-radius: 10px;
+          text-align: center;
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 400;
+          font-family: 'Roboto';
+          color: #c6c6c6;
+        }
+        .highlight {
+          color: #ffb416;
+          font-weight: 700;
+        }
+      }
+    }
+
+    .additionalInfo {
+      display: flex;
+      flex-wrap: wrap;
+      word-break: break-word;
+      align-items: center;
+      margin-left: -7px;
+      align-content: center;
+      margin: 0;
+      padding: 0;
+      .supportedItem {
+        display: flex;
+        padding-right: 12px;
+        font-size: 14px;
+        align-items: center;
+        font-family: 'Roboto';
+        font-weight: 500;
+        line-height: 21px;
+        color: #ffffff;
+        border-right: 1px solid #44454b;
+        img {
+          height: 20px;
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+
+  .content {
+    width: auto;
+    margin: auto;
+    padding: 40px 0 80px 0;
+    max-width: calc(100vw - 80px);
+
+    .infoWrapper {
+      color: #ffffff;
+      display: block;
+
+      .logo {
+        width: 40px;
+        height: 40px;
+        margin-right: 12px;
+        border-radius: 50%;
+      }
+
+      .infoContent {
+        width: 100%;
+        color: #ffffff;
+        margin-bottom: 5px;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .title {
+          display: flex;
+          align-items: center;
+          margin-bottom: 15px;
+          .name {
+            font-size: 28px;
+            font-family: 'Roboto';
+            font-weight: bold;
+            line-height: 49px;
+            color: #ffffff;
+            margin: 0;
+          }
+        }
+        .leftStatus {
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column-reverse;
+          .statusContent {
+            height: 46px;
+            padding: 13px;
+            width: 100%;
+            background: rgba(249, 249, 249, 0.08);
+            backdrop-filter: blur(50px);
+            border-radius: 10px;
+            text-align: center;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 400;
+            font-family: 'Roboto';
+            color: #c6c6c6;
+          }
+          .highlight {
+            color: #ffb416;
+            font-weight: 700;
+          }
+        }
+      }
+
+      .additionalInfo {
+        display: flex;
+        flex-wrap: wrap;
+        word-break: break-word;
+        align-items: center;
+        margin-left: -7px;
+        align-content: center;
+        margin: 0;
+        padding: 0;
+        .supportedItem {
+          display: flex;
+          padding: 0 12px;
+          font-size: 14px;
+          align-items: center;
+          font-family: 'Roboto';
+          font-weight: 500;
+          line-height: 21px;
+          color: #ffffff;
+          border-right: 1px solid #44454b;
+          img {
+            height: 20px;
+            margin-right: 4px;
+          }
+        }
+      }
+    }
+
+    .projectSection,
+    .swapTokenSection {
+      color: #ffffff;
+      padding: 28px 28px;
+      background: rgba(249, 249, 249, 0.08);
+      font-family: 'Roboto';
+      border-radius: 12px;
+      margin-bottom: 20px;
+      .header {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16.41px;
+        color: #ffffff;
+        margin-bottom: 45px;
+        text-align: center;
+      }
+      .headerContainer {
+        display: flex;
+        justify-content: center;
+      }
+      .contentPoolTimeLine {
+        display: flex;
+        flex-direction: row;
+        .container {
+          width: 100%;
+          display: flex;
+          flex-direction: column-reverse;
+          margin-right: -10px;
+          .subHeader {
+            align-self: flex-end;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            color: #c6c6c6;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          .time {
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            color: #ffffff;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 28px;
+            display: block;
+            padding: 7px 15px;
+            margin-top: 9px;
+          }
+        }
+      }
+      .infoContainer {
+        width: 100%;
+        .value {
+          text-align: right;
+        }
+      }
+      .sliderContainer {
+        padding: 12px;
+        background: rgba(249, 249, 249, 0.08);
+        backdrop-filter: blur(50px);
+        border-radius: 12px;
+        margin-bottom: 20px;
+      }
+    }
+
+    .swapTokenSection {
+      display: flex;
+      flex-direction: column-reverse;
+      .leftSide {
+        width: 100%;
+      }
+      .rightSide {
+        width: 100%;
+        // padding-left: 20px;
+        .header {
+          text-align: center;
+        }
+      }
+    }
+    .projectSection {
+      position: relative;
+      .tokenClaimInfo {
+        margin-bottom: 30px;
+        .itemInfo {
+          .title {
+            width: 30%;
+          }
+          .value {
+            width: 70%;
+            text-align: right;
+            padding-right: 10px;
+          }
+        }
+      }
+      .availableToClaimWrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 30px;
+      }
+      .availableToClaim {
+        width: 613px;
+        padding: 10px 20px;
+        display: flex;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid #ffb214;
+        box-sizing: border-box;
+        border-radius: 15px;
+        justify-content: space-between;
+        align-items: center;
+        .titleToClaim {
+          font-size: 12px;
+          color: #c6c6c6;
+          font-family: 'Roboto';
+          // line-height: 30px;
+          font-weight: 400;
+        }
+        .valueToClaim {
+          font-size: 14px;
+          color: #ffb416;
+          font-family: 'Roboto';
+          line-height: 16.41px;
+          font-weight: 700;
+        }
+      }
+    }
+    .itemInfo,
+    .itemInfoReverse {
+      width: 100%;
+      display: flex;
+      margin-bottom: 15px;
+      .title,
+      .titleRight {
+        width: 50%;
+        font-weight: 400;
+        font-size: 12px;
+        color: #c6c6c6;
+        font-family: 'Roboto';
+        line-height: 20px;
+      }
+      .value,
+      .valueRight {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 700;
+        font-family: 'Roboto';
+      }
+      .value {
+        width: 50%;
+      }
+      .valueRight {
+        width: 50%;
+        text-align: right;
+      }
+      .titleRight {
+        width: 50%;
+        text-align: right;
+      }
+      .highlight {
+        color: #ffb416;
+      }
+    }
+    .itemInfoReverse {
+      flex-direction: row-reverse;
+    }
+  }
+  .projectDetailInfo {
+    padding: 0px;
+    background: rgba(249, 249, 249, 0.08);
+    font-family: 'Roboto';
+    border-radius: 12px;
+    margin-bottom: 20px;
+    .content {
+      padding: 20px;
+      padding-top: 30px;
+      .itemInfo {
+        .title {
+          width: 30%;
+          padding-right: 10px;
+        }
+        .value {
+          width: 70%;
+          font-size: 12px;
+          line-height: 20px;
+          font-weight: 400;
+          font-family: 'Roboto';
+          color: #ffffff;
+        }
+      }
+      .infomation {
+        .itemInfo {
+          padding-top: 50px;
+          display: block;
+          .title {
+            width: 100%;
+            margin-bottom: 20px;
+          }
+          .value {
+            width: 100%;
+            line-height: 42px;
+          }
+        }
+      }
+    }
+  }
+}

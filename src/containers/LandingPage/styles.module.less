@@ -1,0 +1,116 @@
+.container {
+  font-family: 'Roboto';
+  background-color: #01000e;
+  background-image: url('../../assets/images/top-banner.webp'), linear-gradient(0deg, #000 0%, #01000e 100%);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 248px;
+  background-size: 100% auto;
+  @media screen and (max-width: 767px) {
+    padding-top: 70px;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 972px;
+    padding-bottom: 30px;
+    @media screen and (max-width: 1024px) {
+      min-height: 600px;
+    }
+    @media screen and (max-width: 800px) {
+      min-height: 400px;
+    }
+    @media screen and (max-width: 767px) {
+      min-height: 328px;
+    }
+    width: 100%;
+  }
+  .title {
+    font-size: 42px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 2px;
+  }
+  .description {
+    font-size: 16px;
+    color: white;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 123px;
+
+    text-align: center;
+    max-width: 1123px;
+    @media screen and (max-width: 767px) {
+      margin-bottom: 30px;
+      padding-top: 15px;
+    }
+  }
+}
+
+.banner {
+  width: 100%;
+}
+
+.slider-block {
+  // margin-top: -450px;
+}
+
+.slider-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 37px;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.slider-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: white;
+  text-align: center;
+  margin-bottom: 130px;
+}
+
+@media screen and (max-width: 1023px) {
+  .slider-block {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    .main-content {
+      top: 30%;
+    }
+    .title {
+      font-size: 26px;
+      line-height: 30px;
+    }
+    .description {
+      font-size: 14px;
+      line-height: 20px;
+      // padding: 0 33px;
+      padding-left: 33px;
+      padding-right: 33px;
+    }
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .slider-title {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 10px;
+  }
+  .slider-description {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0 48px;
+    margin-bottom: 30px;
+  }
+}

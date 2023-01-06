@@ -1,0 +1,53 @@
+.swap-topken-custom-tabs {
+  padding: 50px 30px 20px 30px;
+}
+
+.swap-topken-custom-tabs .ant-tabs-nav-list {
+  width: 100%;
+  height: 62px;
+  background: rgba(255, 255, 255, 0.1);
+}
+.swap-topken-custom-tabs .ant-tabs-tab {
+  width: 50%;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.swap-topken-custom-tabs .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab-active,
+.swap-topken-custom-tabs .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab-active {
+  background-color: transparent;
+  border: none;
+}
+.swap-topken-custom-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #ffb214;
+}
+.swap-topken-custom-tabs .ant-tabs-card > .ant-tabs-nav .ant-tabs-tab,
+.swap-topken-custom-tabs .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab {
+  background-color: transparent;
+  border: none;
+  border-bottom: 4px solid #ffffff;
+}
+
+.swap-topken-custom-tabs .ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab-active,
+.swap-topken-custom-tabs .ant-tabs-card.ant-tabs-top > div > .ant-tabs-nav .ant-tabs-tab-active {
+  border-bottom: 4px solid #ffb214;
+}
+.swap-topken-custom-tabs .ant-tabs-tab:hover {
+  color: #ffffff;
+}
+
+.swap-topken-custom-tabs .ant-tabs-top > .ant-tabs-nav,
+.swap-topken-custom-tabs.ant-tabs-bottom > .ant-tabs-nav,
+.swap-topken-custom-tabs.ant-tabs-top > div > .ant-tabs-nav,
+.swap-topken-custom-tabs.ant-tabs-bottom > div > .ant-tabs-nav {
+  margin: 0;
+}
+
+.swap-topken-custom-tabs .ant-tabs-content-holder {
+  padding: 20px;
+}
+.swap-topken-custom-tabs .ant-tabs-tab.ant-tabs-tab-disabled {
+  color: #d4d4d4;
+}

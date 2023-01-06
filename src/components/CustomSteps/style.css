@@ -1,0 +1,89 @@
+.custom-steps .ant-steps-dot .ant-steps-item-icon .ant-steps-icon-dot, 
+.custom-steps .ant-steps-dot.ant-steps-small .ant-steps-item-icon .ant-steps-icon-dot{
+    border-radius: 0 ;
+    transform: rotate(45deg) translate(-7px);
+    background-color: white !important;
+    border: 5px solid #FFB416;
+    width: 22px;
+    height: 22px;
+}
+.custom-steps .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot{
+    border-radius: 0 ;
+    transform: rotate(45deg) translate(-10px);
+    background-color: white !important;
+    border: 5px solid #8b8b8b;
+    width: 22px;
+    height: 22px;
+}
+.custom-steps .ant-steps-item-container > .ant-steps-item-tail::after{
+    background-color: #FFB416;
+    height: 10px;
+    transform: translateY(-3px);
+}
+.custom-steps .ant-steps-item-finish > .ant-steps-item-container > .ant-steps-item-tail::after{
+    background-color: #FFB416;
+}
+.custom-steps .ant-steps-item-container > .ant-steps-item-tail::after{
+    /* background-color: #FFB416; */
+    height: 10px;
+    transform: translateY(-3px);
+}
+.custom-steps .ant-steps-item-description{
+    position: absolute;
+    top: 0;
+    transform: translate(65px, -11px);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000 !important;
+}
+
+.custom-steps .custom-step-number .ant-steps-dot .ant-steps-item-icon .ant-steps-icon-dot,
+.ant-steps-dot.ant-steps-small .ant-steps-item-icon .ant-steps-icon-dot{
+    border-radius: 0 ;
+    transform: rotate(45deg) translate(-34px);
+    background-color: white !important;
+    border: 5px solid #FFB416;
+    width: 60px;
+    height: 60px;
+}
+.custom-steps .custom-step-number .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon .ant-steps-icon-dot{
+    border-radius: 0 ;
+    transform: rotate(45deg) translate(-34px);
+    background-color: white !important;
+    border: 5px solid #8b8b8b;
+    width: 60px;
+    height: 60px;
+}
+.custom-steps .custom-step-number .ant-steps-item-container > .ant-steps-item-tail::after{
+    /* background-color: #FFB416; */
+    height: 10px;
+    transform: translateY(-3px);
+}
+.custom-steps .custom-step-number .ant-steps-label-vertical .ant-steps-item-content{
+    margin-top: 53px;
+}
+.custom-steps .custom-step-number .ant-steps-item-title{
+    position: absolute;
+    transform: translate(-49%,0);
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.custom-steps .custom-step-number {
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+.custom-steps .ant-steps-item-title{
+    position: absolute;
+    transform: translate(-49%,10px);
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.custom-steps .ant-steps{
+    padding: 30px 0px;
+}

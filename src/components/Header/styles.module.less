@@ -1,0 +1,71 @@
+.bitmoon-logo {
+  width: 210px;
+  height: 75px;
+}
+
+.header {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 30px 50px 0 50px;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  padding: 10px 0 0 100px;
+  margin: 0;
+
+  .menu-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 10px;
+    .menu-text {
+      color: white;
+      text-decoration: none;
+    }
+    // &:first-child {
+    //   margin-right: 70px;
+    // }
+    margin-right: 70px;
+  }
+}
+
+.item-active {
+  border-bottom: 3px solid #ffb214;
+  color: #ffb214;
+}
+
+.btn-group {
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+  .menu-list {
+    display: none;
+  }
+
+  .btn-group {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .bitmoon-logo {
+    width: 67px;
+    height: 24px;
+  }
+
+  .header-container {
+    padding: 13px 24px 0 24px;
+  }
+}
